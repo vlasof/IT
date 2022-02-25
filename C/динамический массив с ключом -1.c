@@ -14,11 +14,8 @@ int main() {
             count = 0;
             break;
         }
-        if (N == -1) {
-            break;
-        }
+        if (N == -1) break;
     }
     if (count == 1) for (int i = 0; i < (n-1); i++) printf("%d ", arr[i]);
     free(arr);
-    
 }

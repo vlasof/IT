@@ -83,4 +83,4 @@ int ball(int a, int b,int player1, int player2) {
     else if (os_y == 24) count_by = 1;
     if (count_by == 0) os_y = b + 1;
     else  if (count_by == 1) os_y = b - 1;
-}     
+}

@@ -12,7 +12,7 @@
     }
     if (success == 1) {
         int arr[N];
-                printf("Enter numbers:\n");
+        printf("Enter numbers:\n");
         //вод чисел в массив
         for (i = 0; i < N; i++) {
             counter = scanf("%d", &you);
@@ -41,5 +41,3 @@
         }
     }
 }
-
-

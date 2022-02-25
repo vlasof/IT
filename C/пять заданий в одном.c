@@ -41,7 +41,6 @@ int quests3(char arr[SIZE]) {//Ввести с клавиатуры букву, 
     int i;
     printf("Enter the character that you want to find: ");
     sym = getchar();
-    
     for (i = 0; i < SIZE; i++) if (arr[i] == sym) count++;
     printf("\nIn the line: ");
     puts(arr);//Вывод строки
@@ -92,7 +91,3 @@ int quests5(char arr[SIZE]) {//Ввести с клавиатуры два чи�
     //strcpy() копирует строки. 
     //char *gets(char *s) - читает множество символов до  первого '\n', 
 }
-
-
-
-
