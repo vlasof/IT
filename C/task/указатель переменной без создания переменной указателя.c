@@ -12,9 +12,10 @@ void ymn(int *y) {
 }
 int main() {
     int x = 5, y = 6;
+    int *p = &x;
     printf("x = %d\n", x);
     printf("y = %d\n", y);
-    plus(&x);
+    plus(p);
     ymn(&y);
     printf("Hello World\n");
     printf("x = %d\n", x);

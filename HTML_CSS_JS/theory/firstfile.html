@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!-- сайт будет русскоязычным -->
+
+<html lang="ru">
+  <head>
+    <!-- отображение символов, вместо ироглифов (кодировку для кириллицы) -->
+    <meta charset="utf-8">
+    <!-- отображается во вкладке -->
+    <title>тест текста</title>
+    <link rel="stylesheet" href="firstfile.css">
+    <style>
+      .fff {
+        color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="bdf">Заголовок</h1>
+    <h2 class="green">Второй заголовок</h2>
+    <h3 class="green">Третий заголовок</h3>
+    <h4 class="green">Четвёртый заголовок</h4>
+    <h5 id="white">Пятый заголовок</h5>
+    <h6>Шестой заголовок</h6>
+    <p>Абзац про то, как я решил стать верстальщиком<br>Абзац про моего инструктора</p>
+    <p>Абзац про мой дневничок</p>
+    <a href="mailto:info@mindcraft.pro">Написать сообщение в MINDCRAFT</a>
+    <br>
+    <a href="tel:+79999999999">3воните нам бесплатно по телефону (999) 999-9999</a>
+    <br>
+    <!-- <a имя атрибута="значение атрибута">текст ссылки</a> -->
+    <a href="https://ya.ru/">откроет тут же</a>
+    <br>
+    <!-- тоже что и сверху, но открывается в другой вкладке -->
+    <a href="https://ya.ru/" target="_blank">откроет в другой вкладке</a>
+    <br>
+    <p>С этим вы можете ознакомится  <a href="#bdf">выше</a></p>
+    <!-- <а href="seasons.html#season2">Весна</а> якорь расположен в другом файле, но в этом же каталоге. -->
+    <ul>
+      <p id="bigjony">Снизу представлены поэты:</p>
+      <li class="fff">Пушкин</li>
+      <li class="fff">Гоголь</li>
+      <li class="fff">Чехов</li>
+      <li class="fff">Толстой</li>
+    </ul>
+
+    <ol>
+      <li>Пушкин</li>
+      <li>Гоголь</li>
+      <li>Чехов</li>
+      <li>Толстой</li>
+    </ol>
+
+    <ol start="17">
+      <li>Булгаков</li>
+      <li>Достоевский</li>
+      <li>Толстой</li>
+      <li>Чехов</li>
+    </ol>
+
+    <ol>
+      <li>Русские писатели
+        <ul>
+          <li>Михаил Булгаков</li>
+          <li>Федор Достоевский</li>
+          <li>Лев Толстой</li>
+          <li>Антон Чехов</li>
+        </ul>
+      </li>
+
+      <li>Зарубежные писатели
+        <ul>
+          <li>Теодор Драйзер</li>
+          <li>Джек Лондон</li>
+          <li>Жюль Верн</li>
+          <li>Рэй Брэдбери</li>
+        </ul>
+      </li>
+    </ol>
+
+    <dl>
+      <dt>Тег</dt>
+        <dd>Тег — это специальный символ разметки, который применяется для вставки различных элементов на веб-страницу таких как: рисунки, таблицы, ссылки и др., и для изменения их вида.</dd>
+      <dt>HTML-документ</dt>
+        <dd>Обычный текстовый файл, который может содержать в себе текст, теги и стили. Изображения и другие объекты хранятся отдельно. Содержимое такого файла обычно называется HTML-код.</dd>
+      <dt>Сайт</dt>
+      <dd>Cайт — это набор отдельных веб-страниц, которые связаны между собой ссылками и единым оформлением.</dd>
+    </dl>
+
+    <h3>Times</h3>
+    <p>Описание и история шрифта Times.</p>
+    <hr>
+    <h3>Georgia</h3>
+    <p>Описание и история шрифта Georgia.</p>
+
+    <p></p><sup>Текст12</sup>99Текст</p>
+
+    <em>Текст, а также я ем кофе</em>
+    <br>
+    <p>Если у тебя есть <img src="20210804_195651.ico" width="20%" height="20%" alt="очки">, то ты нереально крут!)</p>
+
+    <table>
+      <caption>Пищевая ценность</caption>
+      <tr>
+        <th>Блюда</th>
+        <th>Калории</th>
+        <th>Жиры (г)</th>
+      </tr>
+      <tr>
+        <td>Куриный бульон</td>
+        <td>120</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Салат цезарь</td>
+        <td>400</td>
+        <td>26</td>
+      </tr>
+    </table>
+
+    <br>
+
+    <!-- Строка -->
+    <table>
+      <tr>
+        <th colspan="3">Жиры (г)</th>
+      </tr>
+        <td>Насыщенные жиры (г)</td>
+        <td>Ненасыщенные жиры (г)</td>
+        <td>Просто жиры (г)</td>
+      </tr>
+    </table>
+
+    <br>
+    
+    <!-- Столбец -->
+    <table>
+      <tr>
+        <th rowspan="3">Порции</th>
+        <th rowspan="3">да</th>
+        <td>Маленькая (150 г.)</td>
+      </tr>
+      <tr>
+        <td>Средняя (250 г.)</td>
+      </tr>
+      <tr>
+        <td>Большая (2400 г)</td>
+      </tr>
+      <tr>
+        <td>Большая (2400 г)</td>
+      </tr>
+    </table>
+
+    <!-- ввод имя и фамилии -->
+    <form>
+      Имя:<br>
+      <input type="text" name="firstname" id="firstname"><br>
+      Фамилия:<br>
+      <input type="text" name="lastname" id="lastname">
+    </form>
+
+    <!-- Ввод пороля и логина -->
+    <p>Авторизация</p>
+    <form>
+      Имя пользователя
+      <br>
+      <input type="text" name="login">
+      <br>
+      Пароль
+      <br>
+      <input type="password" name="password">
+    </form>
+    <br>
+    
+    <br>
+    <!-- один выбор из множество вариантов -->
+    <p>Сколько Вам лет?</p>
+    <form>
+      <input type="radio" name="age" value="menee18" checked="checked"> менее 18<br>
+      <input type="radio" name="age" value="ot18do35"> от 18 до 35<br>
+      <input type="radio" name="age" value="ot36do60"> от 36 до 60<br>
+      <input type="radio" name="age" value="bolee60"> более 60<br>
+    </form>
+
+    <!-- Больше одного выбора из всех вариантов -->
+    <p>Какую музыку Вы слушаете?</p>
+    <form>
+      <input type="checkbox" name="punk">Панк-рок<br>
+      <input type="checkbox" name="indie">Инди-рок<br>
+      <input type="checkbox" name="techno">Техно<br>
+      <input type="checkbox" name="rockabilly">Рокабилли<br>
+    </form>
+
+    <!-- выбор одного варианта в сворачивающемся списке -->
+    <p>Какая ваша любимая группа восьмидесятых?
+      <select name="EightiesFave">
+        <option value="1">The Cure</option>
+        <option value="2">Cocteau Twins</option>
+        <option value="3">Tears for Fears</option>
+        <option value="4">Thompson Twins</option>
+        <option value="5">Everything But the Girl</option> 
+        <option value="6">Depeche Mode</option>
+        <option value="7">The Smiths</option>
+        <option value="8">New Order</option>
+      </select>
+    </p>
+
+    <!-- открытый список  -->
+    <p>Какая ваша любимая группа восьмидесятых?
+      <select name="EightiesFave" size="6" multiple>
+        <option value="1">The Cure</option>
+        <option value="2">Cocteau Twins</option>
+        <option value="3" selected="selected">Tears for Fears</option>
+        <option value="4" selected="selected">Thompson Twins</option>
+        <option value="5">Everything But the Girl</option> 
+        <option value="6">Depeche Mode</option>
+        <option value="7">The Smiths</option>
+        <option value="8">New Order</option>
+      </select>
+    </p>
+    <br>
+    <!-- добавляем кнопку "отправить" и "очистить" -->
+    <p>Форма авторизации</p>
+    <form>
+      Имя: <input type="text" name="login">
+      <br>
+      Пароль: <input type="password" name="password">
+      <br>
+      <input type="submit">
+      <input type="reset" value="Начать заново">
+    </form>
+
+
+
+
+
+
+    <br>
+    <!-- ввод коментария -->
+    <textarea rows="4" cols="50">
+      Озеро Байкал – огромное древнее озеро в горах Сибири к северу от монгольской границы. Байкал считается самым глубоким озером в мире. Он окружен сетью пешеходных маршрутов, называемых Большой байкальской тропой. Деревня Листвянка, расположенная на западном берегу озера, – популярная отправная точка для летних экскурсий. Зимой здесь можно кататься на коньках и собачьих упряжках.
+    <textarea>
+    
+  </body>
+</html>
