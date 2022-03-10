@@ -9,17 +9,60 @@
 
 //2, 3, 5, 7, 11, 13, 17
 
-let UserNumber = +prompt('Введите число!', 10);// n
-for (let AscendingNumber = Number(2); AscendingNumber < UserNumber; AscendingNumber++) {
-    for (let Verification = Number(2); Verification <= AscendingNumber; Verification++) {
-        if (AscendingNumber != Verification) {
-            if (AscendingNumber % Verification == 0) {
-                break;
-            }
-        }
-        if (AscendingNumber == Verification) {
-            console.log(AscendingNumber);
-        }
+// let UserNumber = +prompt('Введите число!', 10); //n
+// for (let AscendingNumber = Number(2); AscendingNumber < UserNumber; AscendingNumber++) {
+//     for (let chek = Number(2); chek <= AscendingNumber; chek++) {
+//         if (AscendingNumber != chek) {
+//             if (AscendingNumber % chek == 0) {
+//                 break;
+//             }
+//         }
+//         if (AscendingNumber == chek) {
+//             console.log(AscendingNumber);
+//         }
+//     }
+    
+// }
+
+
+
+
+
+
+
+
+
+let StopNumber = +prompt( 'Введите число!', 10 ); //n
+
+stopNumber();
+
+function stopNumber() {
+
+    for ( let AscendingNumber = 2 ; AscendingNumber <= StopNumber ; AscendingNumber++ ) {
+        chekNumber(AscendingNumber);
     }
     
-}
+};
+
+function chekNumber(AscendingNumber) {
+    for ( let chek = 2 ; chek <= AscendingNumber ; chek++ ) {
+
+        if ( AscendingNumber != chek ) {
+            
+            if ( AscendingNumber % chek == 0 ) {
+                break;
+            }
+
+        }
+        
+        if ( AscendingNumber == chek ) {
+            console.log( AscendingNumber );
+        }
+
+    }
+
+};
+
+
+
+
